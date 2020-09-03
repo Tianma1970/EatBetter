@@ -1,0 +1,78 @@
+nav {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  background-color: rgba(200, 200, 200, 0.5);
+  height: 40px;
+  width: 100vw;
+}
+h1 {
+  font-family: "Parisienne", cursive;
+}
+
+textarea {
+  margin-top: 7px;
+}
+/**
+The body section
+**/
+.imageRestaurant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/the-quats-temple-bar.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.imageRestaurantText {
+  background-color: rgba(200, 200, 200, 0.7);
+  border: solid black;
+  border-radius: 20px;
+  text-align: center;
+  position: fixed;
+  width: 30vw;
+  height: 30vh;
+}
+
+.imageRestaurantText h1 {
+  font-size: 40px;
+  font-family: "Parisienne", cursive;
+}
+.imageRestaurantText p {
+  font-size: 30px;
+  font-family: "Parisienne", cursive;
+}
+
+.imageFood {
+  background-image: url("images/food.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(200, 200, 200);
+}
+
+/**
+Medie Queries
+**/
+@media screen and (max-width: 480px) {
+  .imageRestaurantText {
+    width: 50vh;
+    height: 50vh;
+  }
+  .deliver {
+    display: none;
+  }
+}
