@@ -87,6 +87,9 @@ I-phone 5 stående
   .imageRestaurantText {
     width: 50vh;
   }
+  .RestaurantTextMobile {
+    display: block !important;
+  }
   .deliver {
     display: none;
   }
