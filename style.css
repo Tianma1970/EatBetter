@@ -35,7 +35,7 @@ The body section
   text-align: center;
   position: fixed;
   width: 30vw;
-  height: 30vh;
+  height: 45vh;
 }
 
 .imageRestaurantText h1 {
@@ -46,6 +46,10 @@ The body section
   font-size: 30px;
   font-family: "Parisienne", cursive;
 }
+
+/* .deliver {
+  height: 40px;
+} */
 
 .imageFood {
   background-image: url("images/food.jpg");
