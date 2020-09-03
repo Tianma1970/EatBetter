@@ -47,10 +47,6 @@ The body section
   font-family: "Parisienne", cursive;
 }
 
-/* .deliver {
-  height: 40px;
-} */
-
 .imageFood {
   background-image: url("images/food.jpg");
   background-attachment: fixed;
