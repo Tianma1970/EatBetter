@@ -78,9 +78,14 @@ I-phone 5 stående
   nav a {
     color: rgb(250, 250, 250);
   }
+
+  /* .imageRestaurant {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+  } */
   .imageRestaurantText {
     width: 50vh;
-    /* height: 100vh; */
   }
   .deliver {
     display: none;
