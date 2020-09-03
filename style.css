@@ -35,7 +35,7 @@ The body section
   text-align: center;
   position: fixed;
   width: 30vw;
-  height: 45vh;
+  height: 30vh;
 }
 
 .imageRestaurantText h1 {
@@ -70,6 +70,66 @@ The body section
 
 /**
 Medie Queries
+I-phone 5 stående
+**/
+@media screen and (max-width: 480px) {
+  nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+  }
+
+  nav a {
+    color: rgb(250, 250, 250);
+  }
+  .imageRestaurantText {
+    width: 50vh;
+    /* height: 100vh; */
+  }
+  .deliver {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/**
+Medie Queries
+I-phone 5 liggende
+**/
+@media screen and (max-width: 568px) {
+  nav {
+    position: fixed;
+  }
+  .navbar-right {
+    display: none;
+  }
+  .imageRestaurantText {
+    width: 100vh;
+    height: 90vh;
+  }
+  .deliver {
+    display: none;
+  }
+  footer {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 568px) {
+  .imageRestaurantText h1 p {
+    font-size: 8px;
+  }
+  .deliver {
+    display: none;
+  }
+}
+
+/**
+Medie Queries
+I-phone 6
 **/
 @media screen and (max-width: 480px) {
   .imageRestaurantText {
