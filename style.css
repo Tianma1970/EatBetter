@@ -93,6 +93,15 @@ I-phone 5 stående
     display: flex;
     flex-direction: column;
   }
+  .footer-left {
+    margin-left: 80px;
+  }
+  .footer-center {
+    margin-left: 80px;
+  }
+  .footer-right {
+    margin-left: 80px;
+  }
 }
 /**
 Medie Queries
