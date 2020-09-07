@@ -67,6 +67,56 @@ The body section
 }
 
 /**
+Menu Page styles
+**/
+.menu_wrapper1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu_wrapper2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu1 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid black;
+  border-radius: 15px;
+}
+
+.menuPicture1 {
+  background-image: url("images/15526577795c8bad7330af3.png");
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-position: 50% 50%;
+  border: solid black;
+  border-radius: 15px;
+}
+.menu2 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid black;
+  border-radius: 15px;
+}
+.menuPicture2 {
+  background-image: url("images/fish_n_chips_1060.jpg");
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-position: 50% 50%;
+  border: solid black;
+  border-radius: 15px;
+}
+
+/**
 Medie Queries
 
 I-phone 5 stående
@@ -89,25 +139,38 @@ I-phone 5 stående
   }
 
   /**
-  Elements not be shown on mobile start
+  The Menu Page
   **/
-  .imageFood {
-    display: none;
+  .menu_wrapper1 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
   }
-  .RestaurantTextMobile {
-    display: none;
+  .menu1 {
+    width: 100vw;
   }
-  .deliver {
-    display: none;
+  .menuPicture1 {
+    width: 100vw;
+    margin-top: 8px;
   }
-  /**
-/ Elements not be shown on mobile slut
-  **/
+  .menu2 {
+    width: 100vw;
+  }
+  .menuPicture2 {
+    width: 100vw;
+    margin-top: 8px;
+  }
+  .menu_wrapper2 {
+    display: flex;
+    flex-direction: column;
+  }
 
   .footer {
     display: flex;
     flex-direction: column;
+    margin-top: 8px;
     height: 92%;
+    width: 100vw;
   }
   .footer-left {
     margin-left: 80px;
