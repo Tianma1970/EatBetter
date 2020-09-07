@@ -48,6 +48,7 @@ The body section
 }
 
 .imageFood {
+  display: block !important;
   background-image: url("images/food.jpg");
   background-attachment: fixed;
   background-position: center;
