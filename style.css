@@ -110,22 +110,22 @@ I-phone 5 stående
   }
   .footer-left {
     margin-left: 80px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   .footer-center {
     margin-left: 80px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   .footer-right {
     margin-left: 80px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 /**
 Medie Queries
-I-phone 5 liggende
+I-phone 5 liggende start
 **/
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 568px) {
   nav {
     display: flex;
     align-items: center;
@@ -145,6 +145,9 @@ I-phone 5 liggende
     width: 100vh;
     height: 60vh;
   }
+  .imageFood {
+    display: none;
+  }
 
   .RestaurantTextMobile {
     display: none;
@@ -156,20 +159,26 @@ I-phone 5 liggende
     position: absolute;
     z-index: 1;
     width: 100vw;
+    height: 90% !important;
+  }
+  .footer-left {
+    font-size: 1.7rem;
+  }
+  .footer-center {
+    font-size: 1.7rem;
+  }
+  .footer-right {
+    font-size: 1.7rem;
   }
 }
-@media screen and (max-width: 568px) {
-  .imageRestaurantText h1 p {
-    font-size: 8px;
-  }
-  .deliver {
-    display: none;
-  }
-}
+/**
+Medie Queries
+I-phone 5 liggende slut
+**/
 
 /**
 Medie Queries
-I-phone 6
+I-phone 6 stående start
 **/
 @media screen and (max-width: 480px) {
   .imageRestaurantText {
