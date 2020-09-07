@@ -2,10 +2,10 @@ nav {
   display: flex;
   position: fixed;
   justify-content: space-around;
-  background-color: rgba(200, 200, 200, 0.5);
-  height: 40px;
+  height: 50px;
   width: 100vw;
 }
+
 h1 {
   font-family: "Parisienne", cursive;
 }
@@ -34,8 +34,9 @@ The body section
   border-radius: 20px;
   text-align: center;
   position: fixed;
-  width: 30vw;
-  height: 30vh;
+}
+.RestaurantTextMobile {
+  display: block !important;
 }
 
 .imageRestaurantText h1 {
@@ -184,6 +185,22 @@ I-phone 5 stående
     margin-left: 80px;
     font-size: 1.7rem;
   }
+  /**
+  Elements not be shown on I-phone 5 stående start
+  **/
+
+  .imageFood {
+    display: none;
+  }
+  .RestaurantTextMobile {
+    display: none;
+  }
+  .deliver {
+    display: none;
+  }
+  /**
+/ Elements not be shown on I-phone 5 stående slut
+  **/
 }
 /**
 Medie Queries
