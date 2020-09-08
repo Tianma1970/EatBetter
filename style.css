@@ -175,7 +175,7 @@ I-phone 5 stående
     display: flex;
     flex-direction: column;
     margin-top: 8px;
-    height: 92%;
+    height: 94%;
     width: 100vw;
   }
   .footer-left {
@@ -242,7 +242,7 @@ I-phone 5 liggende start
     position: absolute;
     z-index: 1;
     width: 100vw;
-    height: 85% !important;
+    height: 85%;
   }
   .footer-left {
     font-size: 1.7rem;
