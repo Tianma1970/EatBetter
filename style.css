@@ -2,8 +2,13 @@ nav {
   display: flex;
   position: fixed;
   justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
   height: 50px;
   width: 100vw;
+}
+nav a {
+  color: rgb(260, 260, 260);
 }
 
 h1 {
@@ -36,7 +41,7 @@ The body section
   position: fixed;
 }
 .RestaurantTextMobile {
-  display: block !important;
+  display: block;
 }
 
 .imageRestaurantText h1 {
@@ -206,7 +211,7 @@ I-phone 5 stående
 Medie Queries
 I-phone 5 liggende start
 **/
-@media screen and (min-width: 568px) {
+@media screen and (max-width: 568px) {
   nav {
     display: flex;
     align-items: center;
@@ -237,7 +242,7 @@ I-phone 5 liggende start
     position: absolute;
     z-index: 1;
     width: 100vw;
-    height: 90% !important;
+    height: 85% !important;
   }
   .footer-left {
     font-size: 1.7rem;
